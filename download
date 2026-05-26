@@ -1,0 +1,126 @@
+# Thanks & Giving Speakeasy 2026 — Givebutter Implementation Guide
+
+> **EdenHill Communities** · November 20, 2026 · McKenna Center
+
+A complete, copy-ready implementation guide for building the Thanks & Giving Speakeasy fundraising campaign in [Givebutter](https://givebutter.com). Includes all campaign copy, ticket configurations, sponsorship tiers, underwriting opportunities, SEO metadata, email templates, and a pre-launch checklist.
+
+---
+
+## Quick Start
+
+Open `index.html` in any browser. Every copy block has a **one-click copy button** — paste directly into Givebutter's campaign editor.
+
+To host as a live reference page, deploy to GitHub Pages:
+
+```
+Settings → Pages → Source: main branch → / (root)
+```
+
+Your guide will be live at `https://<org>.github.io/edenhill-givebutter/`
+
+---
+
+## Repository Structure
+
+```
+edenhill-givebutter/
+├── index.html                      # Full implementation guide (self-contained)
+├── README.md                       # This file
+├── assets/
+│   ├── logo-gold.png               # Speakeasy logo — gold lines, no date
+│   ├── logo-green.png              # Speakeasy logo — green, with date
+│   ├── logo-gold-date.png          # Speakeasy logo — gold lines, with date
+│   ├── hero-duotone-blue.png       # Hero image — blue duotone with flapper
+│   ├── hero-duotone-burgundy.png   # Hero image — burgundy duotone with feathers
+│   ├── hero-duotone-sepia.png      # Hero image — sepia duotone with dancers
+│   └── sponsorship-guide.png       # Full sponsorship one-pager
+└── docs/
+    └── COPY-REFERENCE.md           # Plain-text copy for non-HTML workflows
+```
+
+---
+
+## What's Inside the Guide
+
+| Section | What It Covers |
+|---|---|
+| **01 — Setup** | Campaign creation, payout verification, fee structure (donor tips vs. platform fee) |
+| **02 — Event Details** | Every Givebutter field mapped: event type, name, date/time, location, reminders |
+| **03 — Story Copy** | Full campaign narrative — ready to paste into the Story editor |
+| **04 — Tickets** | General admission + VIP table configs, custom fields, promo codes |
+| **05 — Sponsorships** | All 5 tiers with copy: Bee's Knees ($15K) through Velvet Reserve ($1,500) |
+| **06 — Underwriting** | 12 "Putting on the Ritz" opportunities ($200–$8,000) |
+| **07 — Donations** | Suggested amounts with speakeasy-themed labels |
+| **08 — Sharing & SEO** | Custom URL, SEO title/description, QR code, website widget embed |
+| **09 — Emails** | Receipt thank-you message, donation-only follow-up, 8-touchpoint email timeline |
+| **10 — Launch Checklist** | Every item to verify before hitting Publish |
+
+---
+
+## Sponsorship Tiers at a Glance
+
+| Tier | Investment | Tickets | Key Perks |
+|---|---|---|---|
+| The Bee's Knees | $15,000 | 10 | VIP lounge, dedicated server, triple chips, logo on banner, first right of renewal |
+| The Cat's Meow | $10,000 | 8 | Priority seating, table service, triple chips, social media highlight |
+| The Guilded Circle | $5,000 | 8 | Preferred seating, double chips, logo on banner |
+| The Uptown Set | $3,500 | 8 | Reserved seating, open bar, commemorative gift |
+| The Velvet Reserve | $1,500 | 8 | Reserved seating, open bar, casino chip voucher |
+
+---
+
+## Underwriting Opportunities
+
+| Experience | Investment |
+|---|---|
+| Food Sponsor | $8,000 |
+| Bar Sponsor | $8,000 |
+| Roulette Table | $2,200 |
+| Craps Table | $1,700 |
+| Blackjack Table | $1,500 |
+| Ballroom Sponsor | $1,250 |
+| Bottle Toss Sponsor | $1,000 |
+| Signature Cocktail Sponsor | $1,000 |
+| Whodunit Experience Sponsor | $750 |
+| Winners Sponsor | $500 |
+| Giving Wall Sponsor | $250 |
+| Flashbulb Sponsor (Photography) | $200 |
+
+---
+
+## Assets
+
+All event branding files are in `/assets/`. Use these for:
+
+- **Givebutter cover photo** → `hero-duotone-blue.png` or `hero-duotone-burgundy.png` (1920×1080 — crop or resize to 1200×630 for Givebutter)
+- **SEO social share image** → `logo-gold-date.png`
+- **Print / sponsorship packets** → `sponsorship-guide.png`
+- **Clean logo (no date)** → `logo-gold.png`
+
+---
+
+## Event Details
+
+- **Event:** Thanks & Giving Speakeasy
+- **Date:** November 20, 2026
+- **Time:** 6:00 PM – 10:00 PM CST
+- **Venue:** McKenna Center
+- **Organization:** EdenHill Communities
+- **Theme:** 1920s Speakeasy / Casino Night
+- **Attire:** Cocktail / 1920s Speakeasy
+
+---
+
+## Deployment Notes
+
+This is a **static single-file HTML guide** with zero dependencies. No build step required.
+
+- **GitHub Pages:** Enable in repo settings — works immediately
+- **Local:** Open `index.html` in any browser
+- **Share:** Send the HTML file directly — it's fully self-contained (fonts loaded via Google Fonts CDN)
+
+---
+
+## License
+
+Internal use only — EdenHill Communities / MKT Agents. Not for public distribution.
